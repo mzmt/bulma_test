@@ -1,3 +1,124 @@
-%div.button HELLO!
-%div.button good!
-= button_to '削除', home_index_path, class: 'button is-small is-danger'
+%header.nav
+  .nav-left
+    %span.nav-item
+      %span.fa.fa-langage 放課後SNS
+
+  .nav-right
+    %span.nav-item
+      .control.has-addons
+        %input.input{ type: 'search', name: 'search',placeholder: 'search' }
+        %a.button.if-info
+          %i.fa.fa-search 検索
+    %span.nav-item
+      %a.fa.fa-user ログイン
+
+.hero.is-success.is-bold
+  .hero-body
+    .container
+      %h1.title Mizumoto
+      %h2.subtitle @mizuuuuuuumoto
+
+%section.level
+  .level-left
+  .level-right
+    .level-item.tabs
+      %ul
+        %li.is-active
+          %a 最近の一言
+        %li
+          %a 古い一言
+        %li
+          %a コメント付き
+  .level-right
+    .level-item
+      %a.button.is-greylight フォロー
+
+
+%main.columns
+  .submenu.column.is-3
+    %aside.box このサイトについて
+    %aside.box.menu
+      %p.menu-label おすすめの投稿
+      %ul.menu-list
+        %li
+          %a 冷やし中華始めました
+        %li
+          %a カレーwithラーメン
+        %li
+          %a スイーツ巡りについて
+      %p.menu-label キーワード
+      %ul.menu-list
+        %li
+          %a イラスト
+        %li
+          %a.is-active 夏コミ
+          %ul
+            %li
+              %a プラメモ本
+            %li
+              %a アクリルキーホルダー
+        %li
+          %a プログラミング
+  .column
+    %article.box.media
+      %figure.media-left
+        %p.image.is-64x64
+          %img{ src: "http://placehold.it/128x128" }
+      .media-content
+        .content
+          %p
+            %strong Mizumoto
+          %p 内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容
+          %small
+            %a Like
+            ・
+            %a Reply
+
+
+
+
+/    <div class="media-content">
+/       <div class="content">
+/          <p><strong>CASAREAL</strong><br>
+/             内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容<br>
+/             <small><a>Like</a> · <a>Reply</a> · 3 hrs</small>
+/           </p>
+/       </div>
+/       <article class="media">
+/           <figure class="media-left">
+/              <p class="image is-48x48">
+/                 <img src="http://placehold.it/96x96">
+/              </p>
+/           </figure>
+/           <div class="media-content">
+/              <div class="content">
+/                <p><strong>Sean Brown</strong><br>
+/                   コメントコメントコメントコメントコメントコメントコメントコメントコメントコメント<br>
+/                   <small><a>Like</a> · <a>Reply</a> · 2 hrs</small>
+/                </p>
+/              </div>
+/              <article class="media">
+/                 リプライリプライリプライリプライリプライリプライリプライリプライリプライリプライ。
+/              </article>
+/              <article class="media">
+/                 リプライリプライリプライリプライリプライリプライリプライリプライリプライリプライ。
+/              </article>
+/           </div>
+/       </article>
+/    </div>
+/ </article>
+/ <article class="box media">
+/    <figure class="media-left">
+/       <p class="image is-48x48">
+/          <img src="http://placehold.it/96x96">
+/       </p>
+/    </figure>
+/    <div class="media-content">
+/       <div class="content">
+/          <p><strong>CASAREAL</strong><br>
+/            内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容<br>
+/            <small><a>Like</a> · <a>Reply</a> · 2 hrs</small>
+/          </p>
+/       </div>
+/    </div>
+/ </article>
