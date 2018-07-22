@@ -7,7 +7,8 @@ ruby '2.4.4'
 gem 'rails', '~> 5.2.0'
 gem 'haml-rails'
 gem 'erb2haml'
-gem 'sqlite3'
+gem 'sqlite3', group: :development
+gem 'pg', group: :production
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
